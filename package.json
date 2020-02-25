@@ -2,6 +2,10 @@
     "name": "fe-backend",
     "version": "1.0.0",
     "description": "",
+    "engines": {
+        "npm": "6.11.3",
+        "node": "8.12.0"
+    },
     "main": "server.js",
     "scripts": {
         "start": "PORT=3001 DEBUG=*,-express*,-nodemon*,-body-parser* nodemon server.js"
