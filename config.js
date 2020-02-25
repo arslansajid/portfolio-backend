@@ -12,7 +12,8 @@ const config = {
     },
     db: {
       username: 'root',
-      DB_NAME: 'saaditrips',
+      // DB_NAME: 'saaditrips',
+      DB_NAME: 'portfolio',
       mongoUri: 'mongodb://localhost:27017/'
     },
     EMAIL: 'Saaditrips@gmail.com',
@@ -29,7 +30,8 @@ const config = {
     },
     db: {
       username: 'root',
-      DB_NAME: 'saaditrips',
+      // DB_NAME: 'saaditrips',
+      DB_NAME: 'portfolio',
       mongoUri: 'mongodb://root:qpXQJ1c3nw986nPI@cluster0-shard-00-00-1os8p.mongodb.net:27017,cluster0-shard-00-01-1os8p.mongodb.net:27017,cluster0-shard-00-02-1os8p.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true'
     },
     EMAIL: 'Saaditrips@gmail.com',

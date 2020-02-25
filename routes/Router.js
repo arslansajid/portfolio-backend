@@ -33,28 +33,6 @@ app.use('/', function(req, res, next) {
 app.use(express.json({limit:'50mb'}))
 
 let routerList = [
-  './locationApi',
-  './cityApi',
-  './locationResourcesApi',
-  './userApi',
-  './roomApi',
-  './hotelApi',
-  './coverBannerApi',
-  './packagePageApi',
-  './agentPageApi.js',
-  './packageContactApi.js',
-  './hotelContactApi.js',
-  './homePageApi.js',
-  './featuredHotelApi.js',
-  './featuredPackageApi.js',
-  './hotelResourcesApi.js',
-  './hotelRatingApi.js',
-  './packageRatingApi.js',
-  './packageResourcesApi.js',
-  './experienceApi.js',
-  './experienceResourcesApi',
-  './experienceRatingApi.js',
-  './eventApi.js',
   './projectsApi.js'
 ]
   
